@@ -22,14 +22,15 @@ body {
 
 /* header */
 #logo img {
-	height: 100px;
+	height: 130px;
+	padding-left: 40px;
+
 }
 
 
 
 header {
 	color: #ffffff;
-	padding: 1em;
 	align-items: center;
 	display: flex;
 	flex-basis: 100%;
@@ -38,76 +39,30 @@ header {
 }
 
 .link {
-	/* 	background-color: tomato; */
-	padding: 70px 0px 0px 0px;
-	flex-basis: 45%;
+	margin: 0px;
+	padding: 60px 0px 0px 0px;
+	flex-basis: 43%;
 }
 
 .link a {
-	color: rgb(55, 175, 211);
+	color: blue;
 	padding: 1em;
-
+	flex-flow: wrap;
+	/* background: rgba(255, 252, 252, 0.886); */
 }
 
 .rojo {
 
-	margin-bottom: 1em;
 	display: flex;
 	flex-basis: 100%;
 	max-width: 1300px;
 
-}
-
-
-
-
-
-
-
-
-
-/* header {
-	display: flex;
-	font-size: 20px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-
 
 }
 
-.cuadro {
-	display: flex;
-	justify-content: space-around;
-	align-items: flex-end;
+.pescado {
 
- */
+	width: 100%;
+	margin-top: 17px;
 
-
-
-
-
-
-
-
-/* 	background-color: gold;
-	color: #ffffff;
-	padding: 1em;
-	align-items: center;
-	display: flex;
-	flex-basis: 100%;
-	flex-flow: row wrap;
-	justify-content: space-between;
-
-		color: #ffffff;
-		padding: 1em;
-
-		justify-content: space-around;
-	} */
-
-
-
-
-
-.icon-facebook2 {
-	color: blue;
 }
