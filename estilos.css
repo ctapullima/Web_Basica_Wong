@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+
+}
+
+.container {
+	margin: auto;
+	max-width: 1100px;
+	width: 100%;
+	flex-flow: row wrap;
+	display: flex;
+}
+
+
+
+/* header */
+#logo img {
+	height: 100px;
+}
+
+
+
+header {
+	color: #ffffff;
+	padding: 1em;
+	align-items: center;
+	display: flex;
+	flex-basis: 100%;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.link {
+	/* 	background-color: tomato; */
+	padding: 70px 0px 0px 0px;
+	flex-basis: 45%;
+}
+
+.link a {
+	color: rgb(55, 175, 211);
+	padding: 1em;
+
+}
+
+.rojo {
+
+	margin-bottom: 1em;
+	display: flex;
+	flex-basis: 100%;
+	max-width: 1300px;
+
+}
+
+
+
+
+
+
+
+
+
+/* header {
+	display: flex;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+
+
+}
+
+.cuadro {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+
+ */
+
+
+
+
+
+
+
+
+/* 	background-color: gold;
+	color: #ffffff;
+	padding: 1em;
+	align-items: center;
+	display: flex;
+	flex-basis: 100%;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+		color: #ffffff;
+		padding: 1em;
+
+		justify-content: space-around;
+	} */
+
+
+
+
+
+.icon-facebook2 {
+	color: blue;
+}
