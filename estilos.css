@@ -1,14 +1,17 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: border-bo;
 	text-decoration: none;
 }
 
 body {
-	margin: 0;
-
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
 }
+
+
 
 .container {
 	margin: auto;
@@ -42,6 +45,7 @@ header {
 	margin: 0px;
 	padding: 60px 0px 0px 0px;
 	flex-basis: 43%;
+
 }
 
 .link a {
@@ -54,14 +58,23 @@ header {
 .rojo {
 
 	display: flex;
-	flex-basis: 100%;
-	max-width: 1300px;
 
 
 }
+
+
 
 .pescado {
 	width: 100%;
 	margin-top: 17px;
 
+}
+
+.letra1 {
+	padding: 1em;
+	margin-left: 20em;
+}
+
+.fotos {
+	border: solid rgb(244, 235, 235);
 }
