@@ -48,11 +48,17 @@ header {
 }
 
 .link a {
-	color: blue;
-	padding: 1em;
+	color: #13a4e7;
+	padding: 8px;
 	flex-flow: wrap;
+	text-decoration: solid;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-	/* background: rgba(255, 252, 252, 0.886); */
+
+}
+
+.icon-facebook2 {
+	color: blue;
 }
 
 .rojo {
