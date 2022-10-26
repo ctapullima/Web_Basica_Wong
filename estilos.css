@@ -31,7 +31,6 @@ body {
 }
 
 
-
 header {
 	color: #ffffff;
 	align-items: center;
@@ -52,16 +51,17 @@ header {
 	color: blue;
 	padding: 1em;
 	flex-flow: wrap;
+
 	/* background: rgba(255, 252, 252, 0.886); */
 }
 
 .rojo {
 
 	display: flex;
+	flex-wrap: wrap;
 
 
 }
-
 
 
 .pescado {
@@ -73,8 +73,30 @@ header {
 .letra1 {
 	padding: 1em;
 	margin-left: 20em;
+
+}
+
+#comida {
+
+	display: flex;
+	padding: 20px;
+	border: solid rgb(240, 235, 235);
+
+}
+
+.container {
+	display: flex;
+	margin: auto;
+
+
 }
 
 .fotos {
-	border: solid rgb(244, 235, 235);
+	border: solid rgba(224, 210, 210, 0.555);
+	flex-wrap: wrap;
+}
+
+h4 {
+	text-align: left;
+
 }
