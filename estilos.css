@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-bo;
+	box-sizing: border-box;
 	text-decoration: none;
 }
 
@@ -11,8 +11,6 @@ body {
 	margin: auto;
 }
 
-
-
 .container {
 	margin: auto;
 	max-width: 1100px;
@@ -21,15 +19,12 @@ body {
 	display: flex;
 }
 
-
-
 /* header */
 #logo img {
 	height: 130px;
 	padding-left: 40px;
 
 }
-
 
 header {
 	color: #ffffff;
@@ -43,8 +38,7 @@ header {
 .link {
 	margin: 0px;
 	padding: 60px 0px 0px 0px;
-	flex-basis: 43%;
-
+	flex-basis: 45%;
 }
 
 .link a {
@@ -53,8 +47,6 @@ header {
 	flex-flow: wrap;
 	text-decoration: solid;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-
 }
 
 .icon-facebook2 {
@@ -62,47 +54,54 @@ header {
 }
 
 .rojo {
-
 	display: flex;
 	flex-wrap: wrap;
 
+}
+
+.pescado {
+	width: 110%;
+	margin-top: 20px;
 
 }
 
+.one {
+	display: flex;
+}
 
-.pescado {
-	width: 100%;
-	margin-top: 17px;
+.precio {
+	width: 50%;
+	position: relative;
+	left: 55%;
+
+}
+
+.letra {
+	display: flex;
+
+
 
 }
 
 .letra1 {
 	padding: 1em;
-	margin-left: 20em;
-
+	margin-left: 1em;
+	position: relative;
+	right: 300px;
+	top: 260px;
 }
 
 #comida {
-
 	display: flex;
-	padding: 20px;
+	padding: 10px;
 	border: solid rgb(240, 235, 235);
-
-}
-
-.container {
 	display: flex;
-	margin: auto;
-
+	margin-top: 50px;
 
 }
 
 .fotos {
 	border: solid rgba(224, 210, 210, 0.555);
 	flex-wrap: wrap;
-}
-
-h4 {
-	text-align: left;
-
+	margin-top: 20px;
 }
